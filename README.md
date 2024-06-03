@@ -22,21 +22,21 @@ git clone https://github.com/eisax/inventory-management-system.git
 * You can use the following SQL command:
 
 ```
-CREATE DATABASE inventory_db;
+CREATE DATABASE sms_db;
 ```
 
-* Replace inventory_db with your preferred database name if desired.
+* Replace sms_db with your preferred database name if desired.
 
 3. Import database
 
-* Locate the SQL file provided with the repository, typically named something like inventory_db.sql.
+* Locate the SQL file provided with the repository, typically named something like sms_db.sql.
 * Import this SQL file into your newly created database. If using a command line tool, you can do this with:
 
 ```
-mysql -u your-username -p inventory_db < /path/to/inventory_db.sql
+mysql -u your-username -p sms_db < /path/to/sms_db.sql
 ```
 
-* If using a GUI tool like phpMyAdmin, navigate to the Import section, choose the inventory_db.sql file, and import it.
+* If using a GUI tool like phpMyAdmin, navigate to the Import section, choose the sms_db.sql file, and import it.
 
 4. Open the website via an SQL client like XAMPP
 
